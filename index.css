@@ -1,0 +1,63 @@
+body
+{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+.Style-Paragraph
+{
+    background-color: lightgray;
+    padding: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    color: lightgray;
+    user-select: none;
+}
+
+.Style-Paragraph2
+{
+    color: darkgray;
+    background-color: darkgray;
+    padding: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    user-select: none;
+}
+
+
+
+
+.Row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-total
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.centerize
+{
+    text-align: center;
+    display: block;
+    justify-items: center;
+}

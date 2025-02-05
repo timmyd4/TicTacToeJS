@@ -7,6 +7,8 @@ body
     align-items: center;
     height: 100vh;
     width: auto;
+    background-color: rgba(146, 87, 52, 0.425);
+    
 }
 
 .Style-Paragraph
@@ -32,8 +34,6 @@ body
 }
 
 
-
-
 .Row
 {
     display: flex;
@@ -57,7 +57,6 @@ body
 
 .centerize
 {
-    text-align: center;
-    display: block;
-    justify-items: center;
+    
+    border-radius: 30px;
 }
